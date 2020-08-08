@@ -1,0 +1,19 @@
+.add-todo {
+  &__input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    border-bottom: 1px solid black;
+  }
+
+  &__btn {
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    margin: 0px 10px;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 1.0em;
+  }
+}

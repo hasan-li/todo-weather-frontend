@@ -1,0 +1,10 @@
+export const REDUCER_KEY = 'todos';
+
+export const GET_TODOS = `${REDUCER_KEY}/GET_TODOS`;
+export const SET_TODOS = `${REDUCER_KEY}/SET_TODOS`;
+export const UPDATE_TODO_ITEM = `${REDUCER_KEY}/UPDATE_TODO_ITEM`;
+export const FETCH_TODOS = `${REDUCER_KEY}/FETCH_TODOS`;
+export const TOGGLE_DONE_ITEMS = `${REDUCER_KEY}/TOGGLE_DONE_ITEMS`;
+export const TOGGLE_SORT = `${REDUCER_KEY}/TOGGLE_SORT`;
+export const ADD_TODO_ITEM = `${REDUCER_KEY}/ADD_TODO_ITEM`;
+export const SET_ADD_TODO = `${REDUCER_KEY}/SET_ADD_TODO`;

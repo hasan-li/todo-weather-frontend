@@ -1,0 +1,21 @@
+.weather-sidebar {
+  flex: 1;
+  padding: 20px;
+
+  &__error {
+    font-size: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+    color: #f00;
+  }
+  
+  &__city {
+    font-size: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+  
+    &__country {
+      color: #999999;
+    }
+  }
+}

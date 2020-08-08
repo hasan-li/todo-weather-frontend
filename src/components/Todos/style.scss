@@ -1,0 +1,22 @@
+.todos {
+  flex: 3;
+  padding: 20px;
+
+  &__helpers {
+    border: 1px solid #cccccc;
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 7px;
+
+    &__toggle {
+      background: #ffffff;
+      border: 1px solid #cccccc;
+      margin: 0px 10px;
+      border-radius: 7px;
+      padding: 10px;
+      font-size: 1.0em;
+    }
+  }
+
+}
